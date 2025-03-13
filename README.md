@@ -12,7 +12,7 @@ var createHelloWorld = function (){
 ```
 
 
-# Explanation: Understanding  what is Closure is required to solve this problem?
+# Explanation: Understanding  what is Closure?  required to solve this problem?
 In programming: the Closure is the combination of functions and  its lexical environment. In which variables that are declared in side a function will be accessable to  inside of that declared function and also any nested function can *Remember* their outer function variable this is called *lexical scoping* 
 
 ```js
@@ -20,10 +20,9 @@ function outer(){
 const name = "Bob";
 
 function inner(){
-
 console.log(`Hello ${name}!`);
 }
-return inner()
+return inner
 }
 const greeating = outer();
 greeating();
