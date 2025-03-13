@@ -1,5 +1,5 @@
 # 30-Days-of-Javascript-Problem-Solving-
-# Problem statement :
+# Problem statement No. 1 :
 Write a function ```createHelloWorld```. It should return a new function that always returns *Hello World*.
 
 # Solution
