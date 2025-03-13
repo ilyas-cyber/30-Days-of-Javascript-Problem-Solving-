@@ -2,7 +2,7 @@
 # Problem statement No. 1 :
 Write a function ```createHelloWorld```. It should return a new function that always returns *Hello World*.
 
-# Solution
+# Solution 1
 ```js
 var createHelloWorld = function (){
  return (...args)=>"Hello World"
@@ -22,8 +22,20 @@ const name = "Bob";
 function inner(){
 console.log(`Hello ${name}!`);
 }
+
 return inner
 }
 const greeating = outer();
 greeating();
+```
+
+# Solution 2
+```js
+const createHelloWorld = function (){
+const greeting = "Hello World";
+
+return function (){
+return greeting
+ };
+}
 ```
